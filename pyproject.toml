@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "novaims-programming-data-science"
+version = "0.1.0"
+description = "Overview, summary, and practical exercises on the main topics of Python programming for Data Science"
+authors = ["vmanita-novaims <vmanita@novaims.unl.pt>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.3"
+numpy = "^1.23.2"
+scikit-learn = "^1.1.2"
+matplotlib = "^3.5.3"
+seaborn = "^0.11.2"
+nltk = "^3.7"
+openpyxl = "^3.0.10"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
